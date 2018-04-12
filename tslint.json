@@ -4,7 +4,7 @@
     "curly": true,
     "file-header": [true, "Copyright \\(c\\) 20[0-9]{2}(-20[0-9]{2})? VMware, Inc\\."],
     "forin": true,
-    "import-blacklist": [true, "rxjs"],
+    "import-blacklist": [false, "rxjs"],
     "jsdoc-format": true,
     "label-position": true,
     "member-access": false,

@@ -5,8 +5,7 @@
  */
 
 import {Injectable, QueryList} from "@angular/core";
-import {Observable} from "rxjs/Observable";
-import {Subject} from "rxjs/Subject";
+import {Observable,Subject} from "rxjs";
 
 import {ClrWizardPage} from "../wizard-page";
 

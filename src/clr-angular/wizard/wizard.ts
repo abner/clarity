@@ -18,7 +18,7 @@ import {
     Output,
     QueryList
 } from "@angular/core";
-import {Subscription} from "rxjs/Subscription";
+import {Subscription} from "rxjs";
 
 import {GHOST_PAGE_ANIMATION} from "../modal/utils/ghost-page-animations";
 
@@ -764,7 +764,7 @@ export class ClrWizard implements OnInit, OnDestroy, AfterContentInit, DoCheck {
      */
     public reset() {
         this.pageCollection.reset();
-        this.onReset.next();
+        this.onReset.emit();
     }
 
     /**

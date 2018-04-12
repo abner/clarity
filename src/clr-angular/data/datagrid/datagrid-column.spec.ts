@@ -5,7 +5,7 @@
  */
 import {Component, ViewChild} from "@angular/core";
 import {TestBed} from "@angular/core/testing";
-import {Subject} from "rxjs/Subject";
+import {Subject} from "rxjs";
 
 import {DatagridPropertyComparator} from "./built-in/comparators/datagrid-property-comparator";
 import {DatagridStringFilter} from "./built-in/filters/datagrid-string-filter";

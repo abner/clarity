@@ -6,7 +6,7 @@
 
 import {Component} from "@angular/core";
 import {TestBed} from "@angular/core/testing";
-import {Subscription} from "rxjs/Subscription";
+import {Subscription} from "rxjs";
 
 import {TestContext} from "../../data/datagrid/helpers.spec";
 import {IfOpenService} from "../../utils/conditional/if-open.service";

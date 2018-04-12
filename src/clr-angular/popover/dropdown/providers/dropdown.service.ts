@@ -4,8 +4,7 @@
  * The full license information can be found in LICENSE in the root directory of this project.
  */
 import {Injectable, Optional, SkipSelf} from "@angular/core";
-import {Observable} from "rxjs/Observable";
-import {Subject} from "rxjs/Subject";
+import {Observable,Subject} from "rxjs";
 
 @Injectable()
 export class RootDropdownService {

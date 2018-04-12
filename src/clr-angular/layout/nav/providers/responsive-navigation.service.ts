@@ -4,8 +4,7 @@
  * The full license information can be found in LICENSE in the root directory of this project.
  */
 import {Injectable} from "@angular/core";
-import {Observable} from "rxjs/Observable";
-import {Subject} from "rxjs/Subject";
+import {Observable,Subject} from "rxjs";
 
 import {ResponsiveNavCodes} from "../responsive-nav-codes";
 import {ResponsiveNavControlMessage} from "../responsive-nav-control-message";

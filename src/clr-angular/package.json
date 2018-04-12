@@ -21,7 +21,7 @@
         "@angular/router": "^5.0.0",
         "@clr/ui": "0.11.12"
     },
-    "dependencies": {
+    "devDependencies": {
         "@angular-devkit/core": "^0.5.5",
         "@angular-devkit/schematics": "^0.5.5"
     },
